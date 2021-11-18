@@ -1,0 +1,137 @@
+<!Doctype html>
+<html lang="en">
+    <!--head-->
+    <head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="прогноз погоды">
+     <meta name="description" content="Полный прогноз погоды на день ">
+    <title>Clothing store</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <!--body-->
+    <body>
+        <!--header-->
+        <header><div class="div_header">  <ul>
+            <input type="text" id="Name_city">
+            <button id="search"  onclick="Myfunc()">&#128269;</button>
+
+          </ul><div class= "lable_header"> <h5 class="header_h5">Прогноз погоды</h5></div></div> 
+         
+          <div id="box_city" class="box_header">город -  </div>
+          <div id="box_description" class="box_header">погода-  </div>
+          <div class="img_header" id="img_header_">
+            <img id="img_" src="img/2.jpg" alt="2">
+            <div id="box_temp">temp</div>  
+        </div>
+        
+        <ul class="forecast"> <div id="box_dt" class="forecast_">dt</div>
+            <div id="box_maxTemp" class="forecast_">maxTemp</div>
+            <div id="box_minTemp" class="forecast_">minTemp</div>
+            <div id="box_wind" class="forecast_">Wind</div> </ul>
+            
+          
+
+   <!--<h1 class="header_h1">
+            Weather
+        </h1>-->
+       
+       
+        </header>
+         <!--main-->
+        <main>
+          <!--<h2 class="main_h2" >Оформить заказ</h2>-->
+          
+           <div class="form_program">
+           
+            <!--form class="flex_" class="form"  id="form1"-->
+           
+               
+          
+             <section class="table">
+          
+                <table>
+             
+            
+              
+              <thead>    
+                  <tr>
+                      <td>
+                          <div id="dt_table"></div>
+                      
+                     
+                    </td>
+                       
+                    
+                        <td><div id="dt_table0"></div>
+                            <img  id="imgTable0" class="img_table"src="img/3.jpg" alt="">
+                            </td>
+                      <td>
+                        <div id="dt_table1"></div>
+                        <img id="imgTable1" class="img_table"src="img/3.jpg" alt=""></td>
+                      <td>
+                        <div id="dt_table2"></div>
+                        <img id="imgTable2" class="img_table"src="img/3.jpg" alt=""></td>
+                       <td>
+                        <div id="dt_table3"></div>
+                        <img id="imgTable3" class="img_table"src="img/3.jpg" alt=""></td>
+                       <td>
+                        <div id="dt_table4"></div>
+                        <img id="imgTable4" class="img_table"src="img/3.jpg" alt=""></td>
+                       <td>
+                        <div id="dt_table5"></div>
+                        <img  id="imgTable5" class="img_table"src="img/3.jpg" alt=""></td>
+                     
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                     <td>
+                        <div id="forecast_table">Forecast</div>  
+                        <div id="temp_table">Temp</div> 
+                        <div id="wind_table">Wind(km/sec)</div>   </td>
+                       <td>
+                       <div id="forecast_table0"></div>  
+                      <div id="temp_table0"></div> 
+                      <div id="wind_table0"></div> </td>
+                       <td>
+                        <div id="forecast_table1"></div>  
+                        <div id="temp_table1"></div> 
+                        <div id="wind_table1"></div> </td>
+                      <td>
+                        <div id="forecast_table2"></div>  
+                        <div id="temp_table2"></div> 
+                        <div id="wind_table2"></div> </td>
+                       <td>
+                        <div id="forecast_table3"></div>  
+                        <div id="temp_table3"></div> 
+                        <div id="wind_table3"></div> </td>
+                       <td>
+                        <div id="forecast_table4"></div>  
+                        <div id="temp_table4"></div> 
+                        <div id="wind_table4"></div> </td>
+                       <td>
+                        <div id="forecast_table5"></div>  
+                        <div id="temp_table5"></div> 
+                        <div id="wind_table5"></div> </td>
+                     
+                  </tr>
+                  </tbody>
+              
+          </table>
+                
+            </section>
+        
+        
+    </div>
+          
+            
+            
+        </main>
+        <script src="jquery-3.6.0.min.js"></script>  
+        <script  src="script.js"></script>
+       
+    </body>       
+    
+ 
+    
+</html>    

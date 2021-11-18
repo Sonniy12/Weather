@@ -1,0 +1,6 @@
+d90f88b0640d882c70dbeee4bf7d3152
+weather_API
+
+
+Novosib
+lon: 82.9344, lat: 55.0411

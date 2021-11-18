@@ -1,0 +1,175 @@
+body{background-color: lightskyblue}
+/*header*/
+header{margin-left:5%;
+    margin-right: 5%;
+    width: 94%;
+    height: 300px;
+    color:rebeccapurple;
+    background-color:rgb(223, 221, 221);    
+   
+}
+.header_h1{
+    padding-left: 40%;
+padding-right: 30%;
+     position: relative;
+    bottom: 320px;
+}
+.lable_header{width:40px;
+height: 40px;
+border-radius:50%;
+background-image: url(img/icon.png);
+background-size: cover;
+background-position: center;
+margin-top: -55px;
+margin-left: 1%;
+  
+}
+
+.header_h5{
+    padding-left: 50px;
+ 
+
+}
+
+.img_header{width: 200px;
+height: 270px;
+  
+   
+    background-size: cover;
+    background-position: center;
+       position: relative;
+    top: 15px;
+    margin-left: 10%;
+    margin-top: -1%;
+     float: left;
+    
+    
+}
+/* main form div_form*/
+.form_program{ background-color:rgb(223, 221, 221); 
+width: 94%;
+height: 400px;
+
+margin-left: 5%;
+    margin-top: -80px;
+ 
+}
+
+  input{
+      font-size: 20px;
+  }
+
+ /*border: solid 5px #c1bec3;*/
+
+
+/*h2 form input*/
+.main_h2{margin: auto;
+color: #f7f7f0;
+margin-top: 40px;
+margin-left: 40%;}
+
+
+
+/*==================*/
+#img_{width: 90%;
+	
+	float: right;
+overflow: hidden;
+background-size:cover;
+background-position:center;
+  
+    display: flex;
+    justify-content: center;}
+#Name_city{
+    border:none;
+    background-color:white;
+    margin-top: 1%;
+    margin-left: 50%;
+    width:30% ;
+    height: 20px;
+}
+#search{
+    background-color:white;
+    margin-top: 3%;
+   
+}
+.box_header{
+   
+    margin-left: 5%;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#box_city{
+    color:rgb(4, 134, 167);
+    font-weight: bold;}
+
+    #box_dt{color:rgb(4, 134, 167);
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 7%;
+        margin-left: 65%;
+     
+
+    }
+
+#box_temp{
+    color:rgb(2, 11, 14);
+font-size: 45px;
+margin-left: 120%;
+}
+.forecast{
+    margin-left: 60%; 
+    font-size: 20px; 
+    margin-top: -6%;
+
+}
+.forecast_{margin-top: 3%;
+font-family: monospace;}
+
+
+
+/* table=======*/
+.table{width: 95%;
+    height:200px;
+        margin-left: 1% ;
+        margin-top: 150px;
+       
+        
+    }
+     caption{
+                text-align: center;
+         margin-bottom: 30px;
+              
+            }
+     table {
+            border-collapse: collapse;
+       }
+          td {
+            /*border:  1px solid black;*/
+             
+            width: 10%;
+            height: 200px;
+            color:rebeccapurple;
+        }
+    h4, td {text-align:center;}
+    .img_table{
+        width: 90% ;
+        height: 70px;
+        margin-top: 10%;
+    }
+    #dt_table,#forecast_table, #wind_table,#temp_table{
+      
+        color:rgb(4, 134, 167);
+            font-size: 20px;
+            font-weight: bold;
+    }
+    #dt_table{
+        margin-top: -40px;
+        
+    }
+    table{
+        margin-top: 3%;;
+    }
+
+    
+    
